@@ -1,11 +1,14 @@
-.load{
+.load
+{
     background-color: yellowgreen;
     text-align: center;
     font-size: 25px;
 }
-.list{
+.list
+{
     display: none;
 }
-.child_ul{
+.child_ul
+{
     display: none;
 }

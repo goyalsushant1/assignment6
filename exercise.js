@@ -112,7 +112,6 @@ $(document).ready(function(){
         // ques 15
         $('.ajax-get-call').click(function(){
         $('.get-call').html('<table class="table-update-cell"><thead><tr><th>UserID</th><th>ID</th><th>Title</th></tr></thead><tbody></tbody></table>')
-        object_data_json = data[keys].id;
             $.get('https://jsonplaceholder.typicode.com/posts',function(data,status){                     
                 for(keys in data)
                 {
