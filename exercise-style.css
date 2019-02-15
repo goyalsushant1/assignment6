@@ -1,0 +1,11 @@
+.load{
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 25px;
+}
+.list{
+    display: none;
+}
+.child_ul{
+    display: none;
+}
