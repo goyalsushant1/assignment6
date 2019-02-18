@@ -12,3 +12,7 @@
 {
     display: none;
 }
+.hover_me{
+    width: 230px;
+    font-weight: bolder;
+}

@@ -111,14 +111,15 @@ $(document).ready(function(){
         
         // ques 15
         $('.ajax-get-call').click(function(){
-        $('.get-call').html('<table class="table-update-cell"><thead><tr><th>UserID</th><th>ID</th><th>Title</th></tr></thead><tbody></tbody></table>')
+        $('.get-call').html('<table class="table-get-cell"><thead><tr><th>UserID</th><th>ID</th><th>Title</th></tr></thead><tbody></tbody></table>')
+        //object_data_json = data[keys].id;
             $.get('https://jsonplaceholder.typicode.com/posts',function(data,status){                     
                 for(keys in data)
                 {
                     var a = data[keys].id;
                     if(20<a&&a<31)
                     {
-                        $('.table-update-cell').append('<tr><td>'+data[keys].userId+'</td><td>'+a+'</td><td>'+data[keys].title+'</td></tr>')
+                        $('.table-get-cell').append('<tr><td>'+data[keys].userId+'</td><td>'+a+'</td><td>'+data[keys].title+'</td></tr>')
                     }
                 }
             })
